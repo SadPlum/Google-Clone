@@ -78,3 +78,39 @@ img#img {
   border-radius: 4px;
   color: #3c4043;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+div.bar {
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  width: 500px;
+  height: 2.5rem;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+div.bar input.box {
+  border: none;
+  width: 80%;
+}
+
+div.bar input.box,
+div.bar input.box:hover,
+div.bar input.box:focus,
+div.bar input.box:active {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+
+div.bar:hover {
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
